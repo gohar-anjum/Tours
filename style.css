@@ -25,6 +25,7 @@ html, body{
     height: 100%;
 }
 #nav{
+    width: 100%;
     display: flex;
     padding: 30px;
     position: absolute;
@@ -48,11 +49,12 @@ html, body{
     letter-spacing: 2px;
 }
 #nav #pages{
+    margin-right: 100px;
     display: flex;
     flex-direction: row;
 }
 #pages a{
-    margin-right: 30px;
+    padding-right: 60px;
     text-decoration: none;
     color: #fff;
 }
