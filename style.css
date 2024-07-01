@@ -11,7 +11,7 @@ html, body{
     display: flex;
     height: 100%;
     width: 100%;
-    background-image: url(https://images.unsplash.com/photo-1610362981886-f6e39beb3aaa?q=80&w=1474&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-image: url(https://images.unsplash.com/photo-1650732770246-17d08f98ac28?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
     background-position: center;
     background-size: cover;
 }
@@ -37,9 +37,10 @@ html, body{
     flex-direction: column;
 }
 #logo h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     color: #fff;
     text-transform: uppercase;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 #logo h6{
     color: #fff;
@@ -49,12 +50,86 @@ html, body{
     letter-spacing: 2px;
 }
 #nav #pages{
-    margin-right: 100px;
+    margin-right: 90px;
     display: flex;
     flex-direction: row;
 }
 #pages a{
-    padding-right: 60px;
+    margin-right: 50px;
     text-decoration: none;
     color: #fff;
+}
+#pages a:nth-child(1){
+    padding-bottom: 3px;
+    border-bottom: 2px solid #fff;
+}
+#left{
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 150px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+#left .place{
+    opacity: .7;
+    white-space: nowrap;
+    margin-right: 197px;
+    margin-left: 30px;
+}
+
+#left .place h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 200;
+    border-bottom: 2px solid #fff;
+}
+.place .placetop{
+    display: flex;
+}
+.placetop h2{
+    padding-bottom: 3px;
+    margin-left: 30px;
+}
+.placetop h3{
+    font-size: 25px;
+}
+.placebottom h6{
+    font-weight: 100;
+    margin-top: 8px;
+    margin-left: 62px;
+}
+#left .place:nth-child(3) h2{
+    opacity: 1;
+    font-size: 35px;
+}
+#left .place:nth-child(3) h3{
+    opacity: 1;
+    font-size: 35px;
+}
+#left .place:nth-child(3) h6{
+    margin-left: 75px;
+    font-size: 15px;
+    font-weight: 300;
+    opacity: 1;
+}
+#text{
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: 50%;
+    right: 5%;
+    transform: translate(0, -50%);
+    color: #fff;
+    text-align: right;
+}
+#text h3{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    font-weight: 300;
+}
+#text h1{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 120px;
+    font-weight: 600;
 }
